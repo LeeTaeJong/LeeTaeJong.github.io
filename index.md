@@ -1,10 +1,10 @@
 ---
 layout: home
-title: 내 유틸리티 모음
+title: 유틸리티 모음
 ---
 
-> Delphi VCL / C# WinForms 기반의 도구들을 소개하고 배포합니다.  
-> 문의: contact@yourdomain.com
+> Windows 응용 프로그램 / 웹 응용프로그램을 소개하고 배포합니다.  
+> 문의: taejong3182@hypos.co.kr
 
 ## 🔧 Apps
 
