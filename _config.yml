@@ -10,8 +10,3 @@ minima:
   social_links:
     - platform: github
       user_url: https://github.com/yourname
-
-header_pages:
-  - pages/utilities.md          # 유틸리티 모음
-  - docs/install-update.md      # 설치 및 업데이트 안내
-  - docs/faq.md                 # FAQ
