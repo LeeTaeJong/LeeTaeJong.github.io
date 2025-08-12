@@ -73,7 +73,7 @@ HyFireWall은 국가별 IP 범위 데이터를 기반으로 차단 규칙을 생
 - **tcp.ping.pe**
   - 제공: Ping, MTR, TCP 포트 체킹, DNS 진단(dig), 실시간 BGP 루팅 조회 (multiple locations)
   - 활용: 네트워크 상태, 연결 지연, 포트 가용성, DNS 문제, 경로 분석 등 네트워크 진단용 대시보드 :contentReference[oaicite:3]{index=3}
-> 네트워크 연결 상태나 포트 접근 가능 여부는 <https://tcp.ping.pe/> 사이트에서 직접 테스트할 수 있습니다. 
+> 참고: 네트워크 연결 상태나 포트 접근 가능 여부는 <https://tcp.ping.pe/> 사이트에서 직접 테스트할 수 있습니다. 
 ---
 
 ### 📜 버전 이력
