@@ -10,8 +10,6 @@ screenshots:
   - /assets/img/hyfirewall-1.png
   - /assets/img/hyfirewall-2.png
 faq:
-  - q: "설치 시 SmartScreen 경고가 나옵니다."
-    a: "발행자를 확인한 뒤, 신뢰 가능한 경우 '추가 정보 > 실행'을 선택하세요. 코드 서명을 순차 적용 중입니다."
   - q: "업데이트는 어떻게 하나요?"
     a: "이 페이지의 다운로드 버튼으로 최신 버전을 내려받아 재설치하면 됩니다."
 sha256: "여기에 설치파일의 SHA-256 해시값"
