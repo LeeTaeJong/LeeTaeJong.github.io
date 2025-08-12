@@ -11,7 +11,7 @@ title: 유틸리티 모음
 <div class="app-cards">
 
 <div class="app-card">
-  <h3>MyFileTool</h3>
+  <h3>HyFireWall</h3>
   <p>파일 정리/검색 유틸리티</p>
   <p>
     <a class="btn" href="{{ '/projects/myfiletool' | relative_url }}">상세 보기</a>
