@@ -14,7 +14,7 @@ title: 유틸리티 모음
   <h3>HyFireWall</h3>
   <p>Hypos 해외 IP 차단 방화벽 유틸리티</p>
   <p>
-    <a class="btn" href="{{ '/projects/HyFireWall' | relative_url }}">상세 보기</a>
+    <a class="btn" href="{{ '/projects/HyFireWall.md' | relative_url }}">상세 보기</a>
     <a class="btn" href="/assets/downloads/MyFileToolSetup.exe" target="_blank">다운로드</a>
   </p>
 </div>
