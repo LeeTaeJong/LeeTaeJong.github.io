@@ -1,0 +1,12 @@
+title: "My Windows Utilities"
+description: "Delphi VCL & C# WinForms tools — downloads, screenshots, and docs"
+theme: minima
+# If you use a custom domain, add it via the GitHub UI and create a CNAME file at the repo root.
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+minima:
+  skin: auto
+  social_links:
+    - platform: github
+      user_url: https://github.com/yourname
