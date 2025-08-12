@@ -12,6 +12,15 @@ title: 유틸리티 모음
 
 <div class="app-card">
   <h3>HyFireWall</h3>
+  <p>Hypos 해외 IP 차단 방화벽 유틸리티</p>
+  <p>
+    <a class="btn" href="{{ '/projects/HyFireWall' | relative_url }}">상세 보기</a>
+    ## <a class="btn" href="/assets/downloads/MyFileToolSetup.exe" target="_blank">다운로드</a>
+  </p>
+</div>
+
+<div class="app-card">
+  <h3>HyFireWall</h3>
   <p>파일 정리/검색 유틸리티</p>
   <p>
     <a class="btn" href="{{ '/projects/myfiletool' | relative_url }}">상세 보기</a>
