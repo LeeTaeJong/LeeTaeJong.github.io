@@ -5,7 +5,7 @@ latest_version: "v1.0.0.2"
 updated: "2025-08-12"
 download_url: "http://www.newhypos.co.kr/hyFireWall/publish.htm"   # 공개 배포: Pages에 올린 파일 경로
 # changelog_url: "/projects/changelog-myfiletool"        # (선택) 변경이력 페이지가 있다면 경로
-hero_img: "/assets/img/myfiletool-hero.png"             # 대표 스크린샷 1장
+hero_img: "/assets/img/HyFireWall.png"             # 대표 스크린샷 1장
 screenshots:
   - /assets/img/myfiletool-1.png
   - /assets/img/myfiletool-2.png
