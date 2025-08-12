@@ -19,24 +19,6 @@ title: 유틸리티 모음
   </p>
 </div>
 
-<div class="app-card">
-  <h3>HyFireWall</h3>
-  <p>파일 정리/검색 유틸리티</p>
-  <p>
-    <a class="btn" href="{{ '/projects/myfiletool' | relative_url }}">상세 보기</a>
-    <a class="btn" href="https://github.com/yourname/MyFileTool/releases/latest" target="_blank">다운로드</a>
-  </p>
-</div>
-
-<div class="app-card">
-  <h3>DBBackupAgent</h3>
-  <p>MySQL 스케줄 백업 에이전트</p>
-  <p>
-    <a class="btn" href="{{ '/projects/dbbackupagent' | relative_url }}">상세 보기</a>
-    <a class="btn" href="https://github.com/yourname/DBBackupAgent/releases/latest" target="_blank">다운로드</a>
-  </p>
-</div>
-
 </div>
 
 <style>
