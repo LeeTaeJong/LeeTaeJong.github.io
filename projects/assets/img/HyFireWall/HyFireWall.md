@@ -5,7 +5,7 @@ latest_version: "v1.0.0.2"
 updated: "2025-08-12"
 download_url: "http://www.newhypos.co.kr/hyFireWall/publish.htm"   # 공개 배포: Pages에 올린 파일 경로
 # changelog_url: "/projects/changelog-hyfirewall"        # (선택) 변경이력 페이지가 있다면 경로
-hero_img: "/assets/img/HyFireWall.png"             # 대표 스크린샷 1장
+hero_img: "/assets/img/HyFireWall/HyFireWall.png"             # 대표 스크린샷 1장
 screenshots:
   - /assets/img/hyfirewall-1.png
   - /assets/img/hyfirewall-2.png
