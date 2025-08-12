@@ -3,20 +3,14 @@ layout: project
 title: "HyFireWall"
 latest_version: "v1.0.0.2"
 updated: "2025-08-12"
-download_url: "http://www.newhypos.co.kr/hyFireWall/publish.htm"   # 공개 배포: Pages에 올린 파일 경로
-# changelog_url: "/projects/changelog-hyfirewall"        # (선택) 변경이력 페이지가 있다면 경로
-hero_img: "/assets/img/HyFireWall/HyFireWall.png"             # 대표 스크린샷 1장
+download_url: "http://www.newhypos.co.kr/hyFireWall/publish.htm"
+hero_img: "/assets/img/HyFireWall/HyFireWall.png"
 screenshots:
-  - /assets/img/hyfirewall-1.png
-  - /assets/img/hyfirewall-2.png
+  - "/assets/img/hyfirewall-1.png"
+  - "/assets/img/hyfirewall-2.png"
 faq:
   - q: "업데이트는 어떻게 하나요?"
     a: "이 페이지의 다운로드 버튼으로 최신 버전을 내려받아 재설치하면 됩니다."
-legal_notice: |
-  본 소프트웨어는 설치 및 실행 시 MAC 주소, PC 이름, IP 주소 등 시스템 식별 정보를 자동으로 수집합니다.
-  해당 소프트웨어는 승인된 관계자만 설치 및 사용이 허가되며,
-  무단 설치·사용, 리버스 엔지니어링, 무단 배포 등은 관련 법령(저작권법, 정보통신망법 등)에 따라 민·형사상 책임을 질 수 있습니다.
-  본 소프트웨어를 설치·실행함으로써 귀하는 상기 내용에 동의한 것으로 간주됩니다.
 ---
 
 **HyFireWall**은 한국 IP 및 내부망(192.168.*.*) 환경에서 **HYPOS 프로그램의 안정적인 사용**을 위해  
@@ -66,3 +60,11 @@ legal_notice: |
 
 > 🛡 본 프로그램은 Windows 방화벽 레벨에서 작동하며, 모든 보안 위협을 100% 차단하는 것을 보장하지 않습니다.  
 > 실제 운영 환경 적용 전 테스트 환경에서 충분히 검증하시기 바랍니다.
+
+---
+
+### 법적 고지
+본 소프트웨어는 설치 및 실행 시 **MAC 주소, PC 이름, IP 주소** 등 시스템 식별 정보를 자동으로 수집합니다.  
+해당 소프트웨어는 **승인된 관계자**만 설치 및 사용이 허가되며,  
+무단 설치·사용, 리버스 엔지니어링, 무단 배포 등은 관련 법령(저작권법, 정보통신망법 등)에 따라 민·형사상 책임을 질 수 있습니다.  
+본 소프트웨어를 설치·실행함으로써 귀하는 상기 내용에 동의한 것으로 간주됩니다.
