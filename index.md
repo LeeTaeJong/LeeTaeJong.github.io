@@ -23,7 +23,7 @@ title: 유틸리티 모음
   <h3>셀프 회원 가입</h3>
   <p>셀프 회원 가입 웹 어플리케이션</p>
   <p>
-    <a class="btn" href="{{ '/projects/byrregister' | relative_url }}">상세 보기</a>
+    <a class="btn" href="{{ '/projects/byrRegister' | relative_url }}">상세 보기</a>
     <a class="btn" href="https://byrregister.newhypos.co.kr/" target="_blank">바로가기</a>
   </p>
 </div>
