@@ -16,6 +16,10 @@
       .btn { display:inline-block; padding:.5rem .9rem; border:1px solid #d1d5db; border-radius:8px; text-decoration:none; }
       .meta { color:#6b7280; font-size:.9rem; }
       pre, code { background:#f5f5f5; border-radius:8px; padding:.2rem .4rem; }
+
+      /* 스크린샷 겹침 방지 및 반응형 그리드 */
+      .shots { display:grid; gap:1rem; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); }
+      .shots img { width:100%; height:auto; display:block; object-fit:contain; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,.15); }
     </style>
   </head>
   <body>
@@ -27,9 +31,15 @@
       </p>
 
       <p>
-        <a class="btn" href="{{ page.download_url }}" target="_blank">다운로드</a>
+        {%- if page.download_url -%}
+          {%- if page.type == "web" -%}
+            <a class="btn" href="{{ page.download_url }}" target="_blank">바로가기</a>
+          {%- else -%}
+            <a class="btn" href="{{ page.download_url }}" target="_blank">다운로드</a>
+          {%- endif -%}
+        {%- endif -%}
         {%- if page.changelog_url -%}
-        <a class="btn" href="{{ page.changelog_url }}" target="_blank">변경 이력</a>
+          <a class="btn" href="{{ page.changelog_url }}" target="_blank">변경 이력</a>
         {%- endif -%}
       </p>
 
@@ -42,38 +52,22 @@
         </div>
       </div>
 
-{%- if page.screenshots and page.screenshots.size > 0 -%}
-  <h2>스크린샷</h2>
-  <div class="shots">
-    {%- for s in page.screenshots -%}
-      <img src="{{ s | relative_url }}" alt="">
-    {%- endfor -%}
-  </div>
-{%- endif -%}
-
-<style>
-  .shots {
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  }
-  .shots img {
-    width: 100%;
-    height: auto;
-    display: block;
-    object-fit: contain;
-    border-radius: 8px; /* 선택: 모서리 둥글게 */
-    box-shadow: 0 2px 6px rgba(0,0,0,0.15); /* 선택: 그림자 효과 */
-  }
-</style>
+      {%- if page.screenshots and page.screenshots.size > 0 -%}
+        <h2>스크린샷</h2>
+        <div class="shots">
+          {%- for s in page.screenshots -%}
+            <img src="{{ s | relative_url }}" alt="">
+          {%- endfor -%}
+        </div>
+      {%- endif -%}
 
       {%- if page.faq and page.faq.size > 0 -%}
-      <h2>FAQ</h2>
-      <ul>
-        {%- for item in page.faq -%}
-          <li><strong>{{ item.q }}</strong><br>{{ item.a }}</li>
-        {%- endfor -%}
-      </ul>
+        <h2>FAQ</h2>
+        <ul>
+          {%- for item in page.faq -%}
+            <li><strong>{{ item.q }}</strong><br>{{ item.a }}</li>
+          {%- endfor -%}
+        </ul>
       {%- endif -%}
 
       <hr>
