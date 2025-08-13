@@ -42,14 +42,30 @@
         </div>
       </div>
 
-      {%- if page.screenshots and page.screenshots.size > 0 -%}
-      <h2>스크린샷</h2>
-      <div class="shots" style="display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));">
-        {%- for s in page.screenshots -%}
-          <img src="{{ s | relative_url }}" alt="">
-        {%- endfor -%}
-      </div>
-      {%- endif -%}
+{%- if page.screenshots and page.screenshots.size > 0 -%}
+  <h2>스크린샷</h2>
+  <div class="shots">
+    {%- for s in page.screenshots -%}
+      <img src="{{ s | relative_url }}" alt="">
+    {%- endfor -%}
+  </div>
+{%- endif -%}
+
+<style>
+  .shots {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  }
+  .shots img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+    border-radius: 8px; /* 선택: 모서리 둥글게 */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15); /* 선택: 그림자 효과 */
+  }
+</style>
 
       {%- if page.faq and page.faq.size > 0 -%}
       <h2>FAQ</h2>
