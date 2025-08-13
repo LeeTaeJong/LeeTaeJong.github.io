@@ -1,8 +1,8 @@
 ---
 layout: project
 title: "HyFireWall"
-latest_version: "v1.0.0.2"
-updated: "2025-08-12"
+latest_version: "v1.0.0.3"
+updated: "2025-08-13"
 download_url: "http://www.newhypos.co.kr/hyFireWall/publish.htm"
 hero_img: "/assets/img/HyFireWall/HyFireWall.png"
 screenshots:
@@ -38,6 +38,7 @@ faq:
 - **자동 방화벽 규칙 갱신**  
   - 한국 IP + 내부망(192.168.*.*) 허용  
   - HYPOS APP(모바일) 접근 허용
+  - HYPOS (웹 셀프회원가입) 접근 허용용
 - **하이포스 관련 포트 자동 삭제** *(셋업 설치 환경)*
 - **사용자 지정 주기/시간 설정 가능**
 - 시작프로그램 등록을 통한 **주기적 자동 실행 지원**
@@ -78,6 +79,9 @@ HyFireWall은 국가별 IP 범위 데이터를 기반으로 차단 규칙을 생
 ---
 
 ### 📜 버전 이력
+- **v1.0.0.3** (2025-08-13)
+  - 웹 셀프 회원가입 규칙 추가  
+  - 일부 코드 수정
 - **v1.0.0.2** (2025-08-12)
   - 방화벽 규칙 갱신 로직 개선
   - IP 차단 범위 최적화
