@@ -3,7 +3,7 @@ layout: project
 title: "셀프회원가입"
 latest_version: "Web"
 updated: "2025-08-13"
-hyperlink_url: "https://byrregister.newhypos.co.kr/"
+download_url: "https://byrregister.newhypos.co.kr/"
 hero_img: "/assets/img/byrRegister/byrRegister.png"
 screenshots:
   - "/assets/img/byrRegister/byrRegister-1.png"
