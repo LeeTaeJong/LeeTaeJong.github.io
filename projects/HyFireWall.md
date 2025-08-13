@@ -5,9 +5,7 @@ latest_version: "v1.0.0.3"
 updated: "2025-08-13"
 download_url: "http://www.newhypos.co.kr/hyFireWall/publish.htm"
 hero_img: "/assets/img/HyFireWall/HyFireWall.png"
-screenshots:
-  - "/assets/img/hyfirewall-1.png"
-  - "/assets/img/hyfirewall-2.png"
+
 faq:
   - q: "업데이트는 어떻게 하나요?"
     a: "프로그램 실행 시 자동으로 최신 버전을 확인하여 업데이트 여부를 안내합니다."
