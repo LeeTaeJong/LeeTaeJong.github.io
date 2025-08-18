@@ -1,8 +1,8 @@
 ---
 layout: project
 title: "HyFireWall"
-latest_version: "v1.0.0.3"
-updated: "2025-08-13"
+latest_version: "v1.0.0.4"
+updated: "2025-08-18"
 download_url: "http://www.newhypos.co.kr/hyFireWall/publish.htm"
 hero_img: "/assets/img/HyFireWall/HyFireWall.png"
 
