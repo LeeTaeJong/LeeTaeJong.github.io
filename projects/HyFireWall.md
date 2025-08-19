@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "HyFireWall"
-latest_version: "v1.0.0.4"
+latest_version: "v1.0.0.5"
 updated: "2025-08-18"
 download_url: "http://www.newhypos.co.kr/hyFireWall/publish.htm"
 hero_img: "/assets/img/HyFireWall/HyFireWall.png"
@@ -79,6 +79,8 @@ HyFireWall은 국가별 IP 범위 데이터를 기반으로 차단 규칙을 생
 ---
 
 ### 📜 버전 이력
+- **v1.0.0.5** (2025-08-19)
+  - 일부 코드 개선
 - **v1.0.0.4** (2025-08-18)   
   - OS별 이슈로 Https -> Http 프로토콜로 변경
   - TLS 비활성화
