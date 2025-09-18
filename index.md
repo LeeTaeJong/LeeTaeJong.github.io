@@ -28,6 +28,15 @@ title: 유틸리티 모음
   </p>
 </div>
 
+<div class="app-card">
+  <h3>HyDB2</h3>
+  <p>HYPOS 백업 유틸리티</p>
+  <p>
+    <a class="btn" href="{{ '/projects/HyDB2' | relative_url }}">상세 보기</a>
+    <a class="btn" href="http://www.newhypos.co.kr/HyDB2/publish.htm" target="_blank">다운로드</a>
+  </p>
+</div>
+
 </div>
 
 <style>
