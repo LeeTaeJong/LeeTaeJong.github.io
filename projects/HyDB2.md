@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "HyDB2"
-latest_version: "v1.0.0.2"
+latest_version: "v1.0.0.3"
 updated: "2025-11-18"
 download_url: "http://www.newhypos.co.kr/HyDB2/publish.htm"
 hero_img: "/assets/img/HyDB2/HyDB2.png"
