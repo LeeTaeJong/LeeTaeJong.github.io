@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "셀프회원가입"
+title: "셀프회원가입(일시중지)"
 latest_version: "Web"
 updated: "2025-08-19"
 type: "web"
