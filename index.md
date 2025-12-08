@@ -20,7 +20,7 @@ title: 유틸리티 모음
 </div>
 
 <div class="app-card">
-  <h3>셀프 회원 가입(2025-11-27 일시중단 사용필요시 메일로문의)</h3>
+  <h3>셀프 회원 가입(2025-11-27 서비스 중지)</h3>
   <p>HYPOS 셀프 회원 가입 웹 어플리케이션</p>
   <p>
     <a class="btn" href="{{ '/projects/byrRegister' | relative_url }}">상세 보기</a>
