@@ -11,15 +11,6 @@ title: 유틸리티 모음
 <div class="app-cards">
 
 <div class="app-card">
-  <h3>HyFireWall</h3>
-  <p>HYPOS 해외 IP 차단 방화벽 유틸리티</p>
-  <p>
-    <a class="btn" href="{{ '/projects/HyFireWall' | relative_url }}">상세 보기</a>
-    <a class="btn" href="http://www.newhypos.co.kr/hyFireWall/publish.htm" target="_blank">다운로드</a>
-  </p>
-</div>
-
-<div class="app-card">
   <h3>셀프 회원 가입 (2025-11-27 서비스 중지)</h3>
   <p>HYPOS 셀프 회원 가입 웹 어플리케이션</p>
   <p>
